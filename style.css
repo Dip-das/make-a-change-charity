@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* banner section */
+#home-banner {
+  /* border: 1px solid red; */
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+#home-banner::before {
+  background: url("./img/home_bg.jpg") no-repeat center center/cover;
+  content: " ";
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  opacity: 0.8;
+}
+#home-banner h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding: 11px;
+  text-shadow: 2px 2px 5px black;
+}
+
+#home-banner p {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+.btn {
+  margin-top: 33px;
+  padding: 13px 20px;
+  border: 2px solid black;
+  color: white;
+  background: #2a67ca;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* amount section */
+
+.h-secondary {
+  margin-top: 120px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.p-primary {
+  margin-top: 33px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#donate-container {
+  /* border: 2px solid red; */
+  width: 70%;
+  height: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.donate-amount {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.little-box {
+  margin-top: 25px;
+  border: 1px solid gray;
+  width: 100px;
+  height: 65px;
+  background-color: rgb(250, 248, 248);
+  padding-top: 40px;
+}
+
+.selected-box {
+  background-color: #80c7ff;
+  border: 3px solid #2a67ca;
+  color: white;
+}
+
+input[type="text"] {
+  width: 83%;
+  padding: 14px 20px;
+  margin: 50px 0;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 16px;
+}
+
+/* plan section */
+
+#plan-container {
+  /* border: 2px solid red; */
+  height: 700px;
+}
+
+#plan-header {
+  /* border: 2px solid green; */
+  width: 70%;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  width: 70px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.card {
+  text-align: center;
+  width: 250px;
+  height: 215px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-right: 20px;
+  overflow: scroll;
+}
+
+.box1 {
+  background-color: #c6ceff;
+}
+
+.box2 {
+  background-color: #84b7fe;
+}
+
+.box3 {
+  background-color: #c6ceff;
+}
+
+/* extra section add */
+
+#side-container {
+  height: 580px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-img {
+  width: 500px;
+  /* border: 1px solid blue; */
+}
+
+.left-description {
+  width: 500px;
+
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.right-img img {
+  width: 490px;
+  height: 480px;
+  object-fit: cover;
+}
+
+/* newsletter section */
+
+#newsletter {
+  /* border: 1px solid red; */
+  height: 520px;
+  text-align: center;
+}
+
+#newsletter input {
+  font-size: 20px;
+  width: 30%;
+  height: 35px;
+
+  padding: 7px 2px;
+  margin-top: 50px;
+  margin-right: -6px;
+  border-radius: 6px 0px 6px 6px;
+}
+
+#input-cont {
+  /* border: 1px solid blue; */
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #7ccfe3;
+}
+
+/* footer area */
+
+#last-area {
+  /* border: 1px solid red; */
+
+  height: 150px;
+  text-align: center;
+  background-color: #03254e;
+}
+#last-area h5 {
+  padding: 15px;
+  color: white;
+}
+
+.last-para {
+  padding: 15px;
+  color: white;
+}
